@@ -1,0 +1,36 @@
+# 🔥 Entorno virtual
+venv/
+env/
+ENV/
+
+# 🔥 Archivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔥 Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🔥 Archivos de logs
+*.log
+
+# 🔥 Archivos de entorno (credenciales)
+.env
+
+# 🔥 Archivos de Django
+*.sqlite3-journal
+
+# ❌ NO ignorar la base de datos
+# db.sqlite3  <-- NO poner esto
+
+# 🔥 Archivos de VSCode / IDE
+.vscode/
+.idea/
+
+# 🔥 Archivos estáticos generados
+staticfiles/
+
+# 🔥 Media (opcional)
+media/
